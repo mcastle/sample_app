@@ -7,7 +7,6 @@ gem 'bcrypt-ruby', '3.0.1'
 gem 'faker', '1.1.2'
 gem 'will_paginate', '3.0.4'
 gem 'bootstrap-will_paginate', '0.0.9'
-gem 'requirejs-rails', git: 'git://github.com/jwhitley/requirejs-rails.git'
 
 group :development, :test do
   gem 'sqlite3', '1.3.7'
@@ -27,7 +26,7 @@ group :test do
   gem 'database_cleaner', github: 'bmabey/database_cleaner'
 
   # Uncomment this line on OS X.
-  gem 'growl', '1.0.3'
+  # gem 'growl', '1.0.3'
 
   # Uncomment these lines on Linux.
   # gem 'libnotify', '0.8.0'
@@ -37,7 +36,7 @@ group :test do
   # gem 'win32console', '1.3.2'
 end
 
-gem 'sass-rails', '4.0.0.rc2'
+gem 'sass-rails', '4.0.0'
 gem 'uglifier', '2.1.1'
 gem 'coffee-rails', '4.0.0'
 gem 'jquery-rails', '2.2.1'
@@ -51,15 +50,3 @@ end
 group :production do
   gem 'pg', '0.15.1'
 end
-
-# Use ActiveModel has_secure_password
-# gem 'bcrypt-ruby', '~> 3.0.0'
-
-# Use unicorn as the app server
-# gem 'unicorn'
-
-# Use Capistrano for deployment
-# gem 'capistrano', group: :development
-
-# Use debugger
-# gem 'debugger', group: [:development, :test]
